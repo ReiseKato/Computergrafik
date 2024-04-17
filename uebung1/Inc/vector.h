@@ -7,14 +7,17 @@ class Vector
 {
 private:
     float * vector;
+    int length;
 
 public:
-    Vector(float *);
+    Vector(float *, int);
 
     int translation(float *);
     int skalierung(float);
     int rotation(Matrix);
-    //float makeTransformationMatrice(float *);
+    Matrix makeTranslationMatrice(float *);
+    Matrix makeScalarMatrice(float *);
+    Matrix makeRotationMatrice(float, char);
     void printVector();
 
     int getVector(float *);
