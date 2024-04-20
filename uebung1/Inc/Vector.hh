@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "Matrix.hh"
 
 
 //#define VECTOR_SIZE 2
@@ -13,16 +13,22 @@ public:
     Vector(float *, int);
 
     int translation(float *);
+    int translation(Matrix);
     int skalierung(float);
+    int sklaierung(float *);
+    int skalierung(Matrix);
+    int rotation(float, char);
     int rotation(Matrix);
     Matrix makeTranslationMatrice(float *);
     Matrix makeScalarMatrice(float *);
     Matrix makeRotationMatrice(float, char);
+    float * multiplyMatriceVector(Matrix, Vector, int);
     void printVector();
 
-    int getVector(float *);
+    float * getVector();
     float getVectorValue(int);
-    int setVector(float *);
+    int setVector(float *, int);
+    int setVectorValue(float, int);
 };
 
 

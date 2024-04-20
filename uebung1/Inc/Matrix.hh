@@ -11,9 +11,11 @@ private:
 
 public:
     Matrix(float *, int, int);
+    void printMatrix();
 
     int getMatrix(float *);
     float getMatrixValue(int, int);
+    float getMatrixValue(int);
     int getRow();
     int getColumn();
     int setMatrix(float *);

@@ -1,7 +1,7 @@
 #include <stdlib.h>
 //#include <stdio.h>
 
-#include "C:\Users\reise\code\Computergrafik\uebung1\Inc\matrix.h"
+#include "C:\Users\reise\code\Computergrafik\uebung1\Inc\Matrix.hh"
 
 
 Matrix::Matrix(float * inputMatrix, int row, int column)
@@ -15,6 +15,23 @@ Matrix::Matrix(float * inputMatrix, int row, int column)
     }
 }
 
+void Matrix::printMatrix()
+{
+    int i;
+    int j;
+    printf("\n[");
+    for(i = 0; i < row; i++)
+    {
+        printf("\n[");
+        for(j = 0; j < column; j++)
+        {
+            printf("%.2f ", getMatrixValue(i, j));
+        }
+        printf("]");
+    }
+    printf("\n]\n");
+}
+
 int Matrix::getMatrix(float * matrix)
 {
     matrix = this->matrix;
@@ -25,6 +42,11 @@ int Matrix::getMatrix(float * matrix)
 float Matrix::getMatrixValue(int row, int column)
 {
     return this->matrix[row * 3 + column];
+}
+
+float Matrix::getMatrixValue(int index)
+{
+    return this->matrix[index];
 }
 
 int Matrix::setMatrix(float * matrix)
