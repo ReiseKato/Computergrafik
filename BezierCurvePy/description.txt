@@ -1,0 +1,18 @@
+Hello, Reise hier, ich bin zwar nicht da, aber vorgestellt darf das kleine Python Skript natürlich trotzdem.
+
+Implementiert wurden hier die Bezier Kurve und Bezier Fläche für beliebig viele Kontrollpunkte.
+Die Parameter num_points in beiden Funktionen bestimmen die Genauigkeit der Kurve später beim Plotten. Im Prinzip legen sie t bzw. (u, v) fest. 
+
+
+Die Werte der Kontrollpunkte können natürlich nach Belieben verändert werden.
+Folgendes Format ist dabei einzuhalten:
+
+Kurve: np.array([[x0, y0], ..., [xn, yn]])
+
+Fläche: np.array([	[[x00, y00, z00], ..., [x0n, y0n, z0n]], 
+			[[x10, y10, z10], ..., [x1n, y1n, z1n]],
+			...,
+			[[xm0, ym0, zm0], ..., [xmn, ymn, zmn]]	
+		])
+
+Die erste und letzte Zeile, sowie die erste und letzte Spalte, stellen die Randkurven der Fläche dar.

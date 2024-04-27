@@ -81,9 +81,9 @@ if __name__ == '__main__':
     # make control points for Bezier curve
     control_points = np.array([[0, 0], [-100, 700], [0, 800], [600, 600], [600, 500], [-800, 300], [500, 0]]) # "R"
     # make control points for bezier surface
-    control_points_surface = np.array([[[0, 0, 0], [100, 0, 100], [200, 0, 0]], # create contact points (first and last)
-                                       [[-50, 70, -30], [50, 60, 40], [150, 70, 40]], # points to bend surface in the middle
-                                       [[0, 150, 0], [100, 150, -100], [200, 150, 0]]]) # create contact points (first and last)
+    control_points_surface = np.array([[[0, 0, 0], [100, 0, 100], [200, 0, 0]], # curve one
+                                       [[-50, 70, -30], [50, 60, 40], [150, 70, 40]], # points to bend surface in the middle (not necessarily needed)
+                                       [[0, 150, 0], [100, 150, -100], [200, 150, 0]]]) # curve two
     # contact surface control points: [0, 0, 0], [0, 0, 2], [0, 2, 2], [2, 2, 2]
 
     curve = bezier_curve(control_points)
