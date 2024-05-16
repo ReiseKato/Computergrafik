@@ -1,0 +1,17 @@
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\bin\Debug\net8.0\MarchingCubes_cs.exe
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\bin\Debug\net8.0\MarchingCubes_cs.deps.json
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\bin\Debug\net8.0\MarchingCubes_cs.runtimeconfig.json
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\bin\Debug\net8.0\MarchingCubes_cs.dll
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\bin\Debug\net8.0\MarchingCubes_cs.pdb
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.GLFW.Strings.resources
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.csproj.GenerateResource.cache
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.AssemblyInfoInputs.cache
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.AssemblyInfo.cs
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.csproj.CoreCompileInputs.cache
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.sourcelink.json
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.dll
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\refint\MarchingCubes_cs.dll
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.pdb
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\MarchingCubes_cs.genruntimeconfig.cache
+C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\obj\Debug\net8.0\ref\MarchingCubes_cs.dll
