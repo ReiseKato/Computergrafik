@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarchingCubes_cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a945b5e328b41d9ca694ca8c0062769ac2a373a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad94b19d3ad6ab49261cbea8edf44fee403730b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarchingCubes_cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarchingCubes_cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
