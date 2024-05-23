@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|c:\\users\\reise\\code\\computergrafik\\opentk-intro\\opentk-intro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|solutionrelative:opentk-intro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|c:\\users\\reise\\code\\computergrafik\\opentk-intro\\opentk-intro\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|solutionrelative:opentk-intro\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|c:\\users\\reise\\code\\computergrafik\\opentk-intro\\opentk-intro\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA58F57-09C3-4026-8FA3-5AAF144B314B}|OpenTK-intro\\OpenTK-intro.csproj|solutionrelative:opentk-intro\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +32,38 @@
               "RelativeDocumentMoniker": "OpenTK-intro\\Program.cs",
               "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\OpenTK-intro\\OpenTK-intro\\Program.cs",
               "RelativeToolTip": "OpenTK-intro\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T18:14:34.542Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window.cs",
+              "DocumentMoniker": "C:\\Users\\reise\\code\\Computergrafik\\OpenTK-intro\\OpenTK-intro\\Window.cs",
+              "RelativeDocumentMoniker": "OpenTK-intro\\Window.cs",
+              "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\OpenTK-intro\\OpenTK-intro\\Window.cs",
+              "RelativeToolTip": "OpenTK-intro\\Window.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAwwHgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:00:38.473Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "C:\\Users\\reise\\code\\Computergrafik\\OpenTK-intro\\OpenTK-intro\\Shader.cs",
+              "RelativeDocumentMoniker": "OpenTK-intro\\Shader.cs",
+              "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\OpenTK-intro\\OpenTK-intro\\Shader.cs",
+              "RelativeToolTip": "OpenTK-intro\\Shader.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAswFwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:34:40.315Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

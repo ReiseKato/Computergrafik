@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Numerics;
+using static OpenTK.Graphics.OpenGL.GL;
 
 namespace MarchingCubes_cs
 {
@@ -15,6 +16,7 @@ namespace MarchingCubes_cs
         public static List<Vector3> GenerateMesh(VoxelData voxelData, int isolevel)
         {            
             List<Vector3> mesh = new List<Vector3>();
+            List<float> fMesh = new List<float>();
             mesh.Clear();
 
             // Loop through each voxel in data
@@ -61,6 +63,16 @@ namespace MarchingCubes_cs
                                 mesh.Add(vertex0);
                                 mesh.Add(vertex1);
                                 mesh.Add(vertex2);
+
+                                fMesh.Add(vertex0.X);
+                                fMesh.Add(vertex0.Y);
+                                fMesh.Add(vertex0.Z);
+                                fMesh.Add(vertex1.X);
+                                fMesh.Add(vertex1.Y);
+                                fMesh.Add(vertex1.Z);
+                                fMesh.Add(vertex2.X);
+                                fMesh.Add(vertex2.Y);
+                                fMesh.Add(vertex2.Z);
                             }
                             
                             //Console.WriteLine(vertex0);
@@ -134,9 +146,10 @@ namespace MarchingCubes_cs
 
 
         // For Visualisation (ChatGPT)
-        public static List<Vector3> GenerateMeshVis(VoxelData voxelData, int isolevel)
+        public static List<float> GenerateMeshVis(VoxelData voxelData, int isolevel)
         {
             List<Vector3> vertices = new List<Vector3>();
+            List<float> fMesh = new List<float>();
 
             for (int x = 0; x < voxelData.numX - 1; x++)
             {
@@ -176,13 +189,23 @@ namespace MarchingCubes_cs
                                 vertices.Add(vertex0);
                                 vertices.Add(vertex1);
                                 vertices.Add(vertex2);
+
+                                fMesh.Add(vertex0.X);
+                                fMesh.Add(vertex0.Y);
+                                fMesh.Add(vertex0.Z);
+                                fMesh.Add(vertex1.X);
+                                fMesh.Add(vertex1.Y);
+                                fMesh.Add(vertex1.Z);
+                                fMesh.Add(vertex2.X);
+                                fMesh.Add(vertex2.Y);
+                                fMesh.Add(vertex2.Z);
                             }
                         }
                     }
                 }
             }
 
-            return vertices;
+            return fMesh;
         }
 
         private static Vector3 InterpolateVertexVis(int x, int y, int z, int edgeIndex, byte[] cubes, VoxelData voxelData)
