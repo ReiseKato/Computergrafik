@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TYs4rDitDzWdvl9VezxTSdXTeq4iZpVZAW0qdzjQnM9gGHJv9i0dOwg6W+HmzpsGVnSB8aBQbb6Cy7FE9pPHMw==",
+  "dgSpecHash": "U7J4gw2uhwyQuUp3xDKFJXXsKedFpWzX0IiIVd9UIiuNZQZhbxGNLemYOsWF5vkuycycp7KyppSZKkj5s0PFTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\MarchingCubes_cs.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,8 @@
     "C:\\Users\\reise\\.nuget\\packages\\opentk.windowing.common\\4.8.2\\opentk.windowing.common.4.8.2.nupkg.sha512",
     "C:\\Users\\reise\\.nuget\\packages\\opentk.windowing.desktop\\4.8.2\\opentk.windowing.desktop.4.8.2.nupkg.sha512",
     "C:\\Users\\reise\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.8.2\\opentk.windowing.graphicslibraryframework.4.8.2.nupkg.sha512",
-    "C:\\Users\\reise\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\reise\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\reise\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
   ],
   "logs": []
 }

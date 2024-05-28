@@ -41,25 +41,30 @@ namespace MarchingCubes_cs
 
             GL.ClearColor(OpenTK.Mathematics.Color4.White); // background color
 
-            //float[] new_vert =
-            //{
-            //    -2.2118915E-23f, -1.868906E+16f, 5.3367E-39f,
-            //    -2.1166514E-23f, -1.8689086E+16f, 6.684014E-39f,
-            //    -2.1166514E-23f, -2.9214505E+16f, 5.336694E-39f
-            //};
-            //
-            //_vertices = new_vert;
+            float[] new_vert =
+            {
+                -2.2118915E-23f, -1.868906E+16f, 5.3367E-39f,
+                -2.1166514E-23f, -1.8689086E+16f, 6.684014E-39f,
+                -2.1166514E-23f, -2.9214505E+16f, 5.336694E-39f
+
+
+                -4.738774E-25f, -6.9724568E+16f , 1.6409306E-38f,
+                -4.7387728E-25f, -6.898288E+16f, 1.6746192E-38f, 
+                -1.4491666E-25f, -6.9724568E+16f, 1.6746195E-38f
+            };
+            
+            _vertices = new_vert;
 
             // Init code
             // get Mesh from Marching Cube Algorithm and save it to _vertices
-            VoxelReader voxelReader = new VoxelReader();
-            voxelReader.Start();
-
-            var filePath = @"C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\frog\Frog.vol";
-            VoxelData vd = VoxelFileReader.ReadVoxelFile(filePath);
-
-            List<float> mesh = MarchingCubes.GenerateMeshVis(vd, 200);
-            _vertices = mesh.ToArray();
+            //VoxelReader voxelReader = new VoxelReader();
+            //voxelReader.Start();
+            //
+            //var filePath = @"C:\Users\reise\code\Computergrafik\MarchingCubes_cs\MarchingCubes_cs\frog\Frog.vol";
+            //VoxelData vd = VoxelFileReader.ReadVoxelFile(filePath);
+            //
+            //List<float> mesh = MarchingCubes.GenerateMeshVis(vd, 200);
+            //_vertices = mesh.ToArray();
 
             // Vertex Buffer Object (VBO)
             // 1. Create Buffer

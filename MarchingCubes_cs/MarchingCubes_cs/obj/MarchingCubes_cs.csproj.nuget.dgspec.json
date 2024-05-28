@@ -52,6 +52,10 @@
             "OpenTK": {
               "target": "Package",
               "version": "[4.8.2, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
             }
           },
           "imports": [
