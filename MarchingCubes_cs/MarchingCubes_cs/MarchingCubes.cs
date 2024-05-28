@@ -160,12 +160,12 @@ namespace MarchingCubes_cs
                         byte[] cubes = new byte[8];
                         cubes[0] = voxelData.data[x, y, z];
                         cubes[1] = voxelData.data[x + 1, y, z];
-                        cubes[2] = voxelData.data[x + 1, y, z + 1];
-                        cubes[3] = voxelData.data[x, y, z + 1];
-                        cubes[4] = voxelData.data[x, y + 1, z];
-                        cubes[5] = voxelData.data[x + 1, y + 1, z];
-                        cubes[6] = voxelData.data[x + 1, y + 1, z + 1];
-                        cubes[7] = voxelData.data[x, y + 1, z + 1];
+                        cubes[2] = voxelData.data[x, y + 1, z];
+                        cubes[3] = voxelData.data[x + 1, y + 1, z];
+                        cubes[4] = voxelData.data[x, y, z + 1];
+                        cubes[5] = voxelData.data[x, y + 1, z];
+                        cubes[6] = voxelData.data[x, y + 1, z + 1];
+                        cubes[7] = voxelData.data[x + 1, y + 1, z + 1];
 
                         int cubeindex = 0;
                         if (cubes[0] > isolevel) cubeindex |= 1;
@@ -230,12 +230,12 @@ namespace MarchingCubes_cs
             {
             {0, 0, 0},
             {1, 0, 0},
-            {1, 0, 1},
-            {0, 0, 1},
             {0, 1, 0},
             {1, 1, 0},
-            {1, 1, 1},
-            {0, 1, 1}
+            {0, 0, 1},
+            {1, 0, 1},
+            {0, 1, 1},
+            {1, 1, 1}
             };
 
             int[] offset = new int[3] { cornerOffsets[cornerIndex, 0], cornerOffsets[cornerIndex, 1], cornerOffsets[cornerIndex, 2] };

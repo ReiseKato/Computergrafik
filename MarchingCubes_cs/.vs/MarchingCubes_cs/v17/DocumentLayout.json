@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{5AE20644-F5DB-402A-8B54-0890AAB7B994}|MarchingCubes_cs\\MarchingCubes_cs.csproj|solutionrelative:marchingcubes_cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AE20644-F5DB-402A-8B54-0890AAB7B994}|MarchingCubes_cs\\MarchingCubes_cs.csproj|c:\\users\\reise\\code\\computergrafik\\marchingcubes_cs\\marchingcubes_cs\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE20644-F5DB-402A-8B54-0890AAB7B994}|MarchingCubes_cs\\MarchingCubes_cs.csproj|solutionrelative:marchingcubes_cs\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE20644-F5DB-402A-8B54-0890AAB7B994}|MarchingCubes_cs\\MarchingCubes_cs.csproj|c:\\users\\reise\\code\\computergrafik\\marchingcubes_cs\\marchingcubes_cs\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE20644-F5DB-402A-8B54-0890AAB7B994}|MarchingCubes_cs\\MarchingCubes_cs.csproj|solutionrelative:marchingcubes_cs\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "MarchingCubes_cs\\Program.cs",
               "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\Program.cs",
               "RelativeToolTip": "MarchingCubes_cs\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T08:41:42.515Z",
               "IsPinned": true,
@@ -50,7 +54,7 @@
               "RelativeDocumentMoniker": "MarchingCubes_cs\\MarchingCubes.cs",
               "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\MarchingCubes.cs",
               "RelativeToolTip": "MarchingCubes_cs\\MarchingCubes.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAkwM8AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T12:14:06.701Z",
               "IsPinned": true,
@@ -58,27 +62,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Window.cs",
               "DocumentMoniker": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\Window.cs",
               "RelativeDocumentMoniker": "MarchingCubes_cs\\Window.cs",
               "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\Window.cs",
               "RelativeToolTip": "MarchingCubes_cs\\Window.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAQAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:31:26.259Z"
+              "WhenOpened": "2024-05-23T15:31:26.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "VoxelData.cs",
+              "DocumentMoniker": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\VoxelData.cs",
+              "RelativeDocumentMoniker": "MarchingCubes_cs\\VoxelData.cs",
+              "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\VoxelData.cs",
+              "RelativeToolTip": "MarchingCubes_cs\\VoxelData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:35:29.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MarchingCubesTable.cs",
               "DocumentMoniker": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\MarchingCubesTable.cs",
               "RelativeDocumentMoniker": "MarchingCubes_cs\\MarchingCubesTable.cs",
               "ToolTip": "C:\\Users\\reise\\code\\Computergrafik\\MarchingCubes_cs\\MarchingCubes_cs\\MarchingCubesTable.cs",
               "RelativeToolTip": "MarchingCubes_cs\\MarchingCubesTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:25:43.702Z"
+              "WhenOpened": "2024-05-23T15:25:43.702Z",
+              "EditorCaption": ""
             }
           ]
         }
